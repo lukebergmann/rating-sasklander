@@ -57,7 +57,7 @@ I am a Full-Stack Web Developer. I graduated in May of 2021 from Lighthouse Labs
 <br>
 <hr>
 
-*This project is intended as a technical assesment.*
+*This project is intended as a technical assessment.*
 
 
 
