@@ -1,6 +1,6 @@
 <!-- TITLE -->
 <div align="center">
-<h1>SaskLander Technical Assesment</h1>
+<h1>User Rating Application</h1>
 <h3>Completed by Luke Bergmann</h3>
 </div>
 
