@@ -6,7 +6,7 @@
 
 <!-- Project Description -->
 ## Project Description
-A simple rating component where users can rate their experience from one (★☆☆☆☆) to five (★★★★★)
+A simple rating component where users can rate their experience from one (★☆☆☆☆) to five (★★★★★). This project is intended as a technical assesment. 
 
 <!-- Tech Stack-->
 ## Tech Stack Used
