@@ -9,7 +9,7 @@
 A simple rating component where users can rate their experience from one (★☆☆☆☆) to five (★★★★★). This project is intended as a technical assesment.
 
 <!-- Images -->
-!["Rating Page"]()
+!["Rating Page"](https://github.com/lukebergmann/rating-sasklander/blob/main/my-app/docs/RatingPage.gif?raw=true)
 
 <!-- Tech Stack-->
 ## Tech Stack Used
