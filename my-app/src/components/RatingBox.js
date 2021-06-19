@@ -23,6 +23,7 @@ function RatingBox() {
         <section className="BottomBox">
           <p className="SubHeading">Please Leave a Rating Below</p>
           <section className="StarBox">
+            {/* Generate 5 stars with proper state change */}
             {[1, 2, 3, 4, 5].map((index) => {
               return (
                 <RatingIcon

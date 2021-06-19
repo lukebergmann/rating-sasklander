@@ -11,6 +11,7 @@ function RatingIcon(props) {
     onMouseLeave,
     onSaveRating,
   } = props;
+  // Fill in the stars if hovered over
   const fill = React.useMemo(() => {
     if (hoverRating >= index) {
       return "#F28A3A";
