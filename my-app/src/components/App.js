@@ -1,45 +1,26 @@
 import "../styles/App.css";
-import RatingIcon from "./RatingIcon";
+import RatingBox from "./RatingBox";
+import EndBooking from "./EndBooking";
+import ThankYou from "./ThankYou";
 import React from "react";
-import { useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const [rating, setRating] = useState(0);
-  const [hoverRating, setHoverRating] = React.useState(0);
-  const onMouseEnter = (index) => {
-    setHoverRating(index);
-  };
-  const onMouseLeave = () => {
-    setHoverRating(0);
-  };
-  const onSaveRating = (index) => {
-    setRating(index);
-  };
-
   return (
-    <div className="App">
-      <section className="RatingBox">
-        <p className="TopHeading">We'd Love to Hear From You</p>
-        <section className="BottomBox">
-          <p>Please Leave a Rating Below</p>
-          <section className="StarBox">
-            {[1, 2, 3, 4, 5].map((index) => {
-              return (
-                <RatingIcon
-                  index={index}
-                  rating={rating}
-                  hoverRating={hoverRating}
-                  onMouseEnter={onMouseEnter}
-                  onMouseLeave={onMouseLeave}
-                  onSaveRating={onSaveRating}
-                />
-              );
-            })}
-          </section>
-        </section>
-      </section>
-    </div>
-  );
+    <Router>
+      <Switch>
+        <Route exact path="/RateUs">
+          <RatingBox />
+        </Route>
+        <Route exact path="/">
+          <EndBooking />
+        </Route>
+        <Route exact path="/ThankYou">
+          <ThankYou />
+        </Route>
+      </Switch>
+    </Router>
+  )
 }
 
 export default App;

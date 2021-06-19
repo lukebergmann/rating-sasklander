@@ -1,0 +1,37 @@
+.CompleteBooking{
+  background-color: white;
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 21%;
+  justify-content: space-around;
+  width: 50%;
+  height: 400px;
+  padding: 4%;
+  background-color: white;
+  box-shadow: 10px 10px 0 3px #236E8C;
+  transition: all 0.2s ease-out;
+}
+.CompleteBooking:hover{
+  box-shadow: 10px 10px 0 3px #f28a3a;
+  transition: all 0.4s ease;
+}
+
+.EndButton {
+  border: 5px solid #f28a3a;
+}
+
+.Title{
+  font-weight:bold;
+  font-size:2.5em;
+  color: #236e8c;
+}
+
+.ConfirmNum{
+  font-size: 1.5em;
+  color: #236E8C;
+  margin-top: -80px;
+}
