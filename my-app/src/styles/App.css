@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.RatingBox{
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid grey;
+  width: 30%;
+  height: 10%;
+  padding: 1%;
+}
+
+
