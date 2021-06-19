@@ -6,7 +6,7 @@
 
 <!-- Project Description -->
 ## Project Description
-A simple rating component where users can rate their experience from one (★☆☆☆☆) to five (★★★★★). This project is intended as a technical assesment.
+A simple rating component where users can rate their experience from one (★☆☆☆☆) to five (★★★★★). A new confirmation number is generated every refresh. 
 
 <!-- Images -->
 !["Rating Page"](https://github.com/lukebergmann/rating-sasklander/blob/main/my-app/docs/RatingPage.gif?raw=true)
@@ -16,6 +16,9 @@ A simple rating component where users can rate their experience from one (★☆
 - React
 - CSS
 - HTML5
+
+## Dependencies
+- react-router-dom - ^5.2.0
 
 <!-- Installation -->
 ## Installation
@@ -53,6 +56,8 @@ I am a Full-Stack Web Developer. I graduated in May of 2021 from Lighthouse Labs
 [**Email Me**](mailto:lukebergmann0@gmail.com?subject=%20Let's%20Connect!)
 <br>
 <hr>
+
+*This project is intended as a technical assesment.*
 
 
 
