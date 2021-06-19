@@ -6,7 +6,7 @@ function StarIcon(props) {
     <svg
       class="width height"
       fill={fill}
-      stroke="currentColor"
+      stroke="#F28A3A"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >

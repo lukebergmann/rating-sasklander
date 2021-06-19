@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
 .App {
   text-align: center;
-}
-
-.RatingBox{
   display: flex;
-  justify-content: flex-start;
-  border: 1px solid grey;
-  width: 30%;
-  height: 10%;
-  padding: 1%;
+  justify-content: center;
 }
 
+.RatingBox {
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  justify-content: space-around;
+  width: 30%;
+  height: 400px;
+  padding: 4%;
+  background-color: white;
+}
 
+.RatingBox:hover {
+  box-shadow: 10px 10px 0 3px #f28a3a;
+  transition: all 0.6s ease;
+}
+
+.StarBox {
+  display: flex;
+}
+
+.TopHeading{
+  font-weight: 300;
+  font-size: 1.9em;
+}

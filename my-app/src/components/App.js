@@ -19,18 +19,24 @@ function App() {
   return (
     <div className="App">
       <section className="RatingBox">
-        {[1, 2, 3, 4, 5].map((index) => {
-          return (
-            <RatingIcon
-              index={index}
-              rating={rating}
-              hoverRating={hoverRating}
-              onMouseEnter={onMouseEnter}
-              onMouseLeave={onMouseLeave}
-              onSaveRating={onSaveRating}
-            />
-          );
-        })}
+        <p className="TopHeading">We'd Love to Hear From You</p>
+        <section className="BottomBox">
+          <p>Please Leave a Rating Below</p>
+          <section className="StarBox">
+            {[1, 2, 3, 4, 5].map((index) => {
+              return (
+                <RatingIcon
+                  index={index}
+                  rating={rating}
+                  hoverRating={hoverRating}
+                  onMouseEnter={onMouseEnter}
+                  onMouseLeave={onMouseLeave}
+                  onSaveRating={onSaveRating}
+                />
+              );
+            })}
+          </section>
+        </section>
       </section>
     </div>
   );
